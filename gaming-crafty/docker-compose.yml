@@ -13,15 +13,12 @@ services:
       PUID: 1000
       PGID: 1000
       TZ: Etc/UTC
-    ports:
-      - "18444:8443"
-      - "8000:8000"
-      - "8523:8123"
-      - "19132:19132/udp"
-      - "25500-25600:25500-25600"
     volumes:
       - ${APP_DATA_DIR}/data/app/config:/crafty/app/config
       - ${APP_DATA_DIR}/data/logs:/crafty/logs
       - ${APP_DATA_DIR}/data/import:/crafty/import
       - ${APP_DATA_DIR}/data/backups:/crafty/backups
       - ${APP_DATA_DIR}/data/servers:/crafty/servers
+    ports:
+      - "19132:19132/udp"
+      - "25500-25600:25500-25600"
