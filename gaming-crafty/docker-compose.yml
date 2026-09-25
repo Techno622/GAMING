@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: gaming-crafty_server_1
-      APP_PORT: 8443
+      APP_PORT: 8000
 
   server:
     image: arcadiatechnology/crafty-4:4.4.9
