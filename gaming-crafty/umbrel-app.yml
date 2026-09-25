@@ -1,15 +1,10 @@
 manifestVersion: 1
 id: gaming-crafty
+category: gaming
 name: Crafty
-tagline: Minecraft server management
-category: Gaming
 version: "4.4.9"
-port: 18444
-description: |
-  Crafty Controller is a Minecraft server management panel.
+tagline: Minecraft server management
+description: Crafty Controller is a Minecraft server management panel.
 developer: Arcadia Technology
 website: https://craftycontrol.com
-submitter: gaming
-submission: https://github.com/getumbrel/umbrel-community-app-store
-dependencies: []
-path: ""
+port: 8443
