@@ -4,6 +4,7 @@ id: gaming-crafty
 name: Crafty
 tagline: Gestisci facilmente i tuoi server Minecraft
 category: Gaming
+icon: https://docs.craftycontrol.com/img/favicon.ico
 version: "4.4.9"
 
 description: |
