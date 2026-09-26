@@ -1,19 +1,16 @@
 manifestVersion: 1
-
 id: gaming-crafty
 name: Crafty
 tagline: Gestisci i tuoi server Minecraft
+icon: https://docs.craftycontrol.com/img/favicon.ico
 category: Gaming
 version: "4.4.9"
+port: 18444
 
-icon: https://docs.craftycontrol.com/img/favicon.ico
-
-description: |
-  Crafty Controller è un pannello web per la gestione dei server Minecraft.
-
-  Gestisci più server Minecraft da un'unica interfaccia web,
-  controlla la console, avvia e arresta i server e gestisci
-  backup, file e giocatori.
+description: >
+  Crafty Controller per gestire facilmente server Minecraft Java e Bedrock.
 
 developer: Arcadia Technology
 website: https://craftycontrol.com
+submitter: gaming
+submission: https://github.com/
