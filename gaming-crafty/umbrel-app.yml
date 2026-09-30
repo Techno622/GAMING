@@ -5,10 +5,10 @@ tagline: Gestisci i tuoi server Minecraft
 icon: https://docs.craftycontrol.com/img/favicon.ico
 category: Gaming
 version: "4.4.9"
-port: 18444
+port: 8443
 
 description: >
-  Crafty Controller per gestire facilmente server Minecraft Java e Bedrock.
+  Crafty Controller per gestire server Minecraft Java e Bedrock.
 
 developer: Arcadia Technology
 website: https://craftycontrol.com
