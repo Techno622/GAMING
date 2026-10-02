@@ -1,13 +1,6 @@
 version: "3.7"
 
 services:
-
-  app_proxy:
-    environment:
-      APP_HOST: gaming-crafty_server_1
-      APP_PORT: 8443
-      PROXY_AUTH_WHITELIST: "/ws/*"
-
   server:
     image: arcadiatechnology/crafty-4:4.4.9
     restart: on-failure
